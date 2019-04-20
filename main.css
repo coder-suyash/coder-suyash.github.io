@@ -4,9 +4,13 @@
   font-family: Vollkorn;
 }
 
+body{
+  background-color: #fbf7f5;
+}
+
 .header{
   height: 100px;
-  background: #1B9CFC;
+  background: #223f79;
   padding: 0 20px;
   color: #fff;
 }
@@ -26,8 +30,8 @@
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0 10px;
-  transition: 0.2s;
+  padding: 10px;
+  transition: 1s;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -48,7 +52,7 @@
 }
 
 .menu a:hover, .show-menu-btn:hover, .hide-menu-btn:hover{
-  color: #f1c40f;
+  text-decoration: underline;
 }
 
 #chk{
@@ -102,7 +106,7 @@
 .line1{
   width: 160px;
   height: 7px;
-  background: #1B9CFC;
+  background: #223f79;
   margin: 20px auto;
 }
 
@@ -162,7 +166,7 @@ html{
   position: fixed;
   width: 50px;
   height: 50px;
-  background: #1B9CFC;
+  background: #223f79;
   bottom: 50px;
   right: 20px;
   text-decoration: none;
@@ -175,7 +179,7 @@ html{
 
 .footer{
   height: 150px;
-  background: #2980b9;
+  background: #223f79;
   padding: 0 20px;
   color: #fff;
 }
@@ -223,7 +227,7 @@ html{
 .line2{
   width: 320px;
   height: 7px;
-  background: #1B9CFC;
+  background: #223f79;
   margin: 26px auto;
 }
 
@@ -239,7 +243,7 @@ html{
   padding: 15px;
 }
 .testimonial{
-  background: #f1f1f1;
+  background: #fbf7f5;
   padding: 30px;
 }
 .testimonial img{
@@ -263,7 +267,7 @@ html{
 }
 
 .quote{
-  color: #1B9CFC;
+  color: #223f79;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -290,7 +294,7 @@ html{
     padding: 20px;
   }
   .menu a:hover, .hide-menu-btn:hover{
-    color: #1B9CFC;
+    color: #223f79;
   }
   .hide-menu-btn{
     position: absolute;
